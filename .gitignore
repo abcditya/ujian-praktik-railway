@@ -1,0 +1,6 @@
+# Abaikan file konfigurasi rahasia
+.env
+uploads/
+node_modules/
+
+
