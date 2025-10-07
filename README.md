@@ -46,9 +46,6 @@ ujian-praktik-railway/
 └── README.md # Dokumentasi proyek ini
 
 yaml
-Salin kode
-
----
 
 ### 🔧 Langkah Instalasi dan Konfigurasi
 
@@ -59,35 +56,35 @@ Salin kode
 Instal semua dependensi
 
 bash
-Salin kode
+
 npm install
 Buat file .env dari contoh
 
 bash
-Salin kode
+
 cp .env.example .env
 Isi file .env
 Tambahkan environment variable (tanpa mencantumkan kredensial asli):
 
 env
-Salin kode
+
 DATABASE_URL=<isi_url_database_dari_Railway>
 PORT=3000
 Inisialisasi Database
 Jalankan file db-init.js untuk membuat tabel:
 
 bash
-Salin kode
+
 node db-init.js
 Jalankan Aplikasi
 
 bash
-Salin kode
+
 npm start
 Lalu buka di browser:
 
 arduino
-Salin kode
+
 http://localhost:3000
 🧩 Fitur Aplikasi
 📝 1. Form Input Pengguna
